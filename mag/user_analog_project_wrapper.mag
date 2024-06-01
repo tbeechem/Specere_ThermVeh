@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717259503
+timestamp 1717276343
 << pwell >>
 rect 345714 628229 371128 629058
 << mvpsubdiff >>
@@ -1526,10 +1526,10 @@ rect 363318 601439 365147 615307
 rect 363318 597363 363445 601439
 rect 364961 597363 365147 601439
 rect 363318 597052 365147 597363
-use HSense_nFET_1f1WL150n_V6  HSense_nFET_1f1WL150n_V6_0
-timestamp 1717220636
+use GSense_nFET_1W015L_1F  GSense_nFET_1W015L_1F_0
+timestamp 1717276343
 transform 1 0 58200 0 1 57964
-box -28200 -27964 31030 25780
+box -28200 -27964 31120 25800
 use user_analog_proj_example  user_analog_proj_example_0
 timestamp 1717259173
 transform 1 0 345668 0 -1 627114
