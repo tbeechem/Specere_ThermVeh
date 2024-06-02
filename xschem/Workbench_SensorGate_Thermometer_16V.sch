@@ -40,14 +40,14 @@ lab=wbVg_h}
 N 120 60 140 60 {
 lab=wbVd_h}
 C {devices/vsource.sym} -70 90 0 0 {name=V1 value=1.8}
-C {devices/vsource.sym} -170 90 0 0 {name=V2 value=1.8}
+C {devices/vsource.sym} -170 90 0 0 {name=V2 value=16}
 C {devices/simulator_commands_shown.sym} -480 -300 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
 value="
 * ngspice commands
 .options savecurrents
-.dc v1 0 1.95 0.01
+.dc v1 0 5.15 0.01
 .control
     reset
     save all
@@ -71,4 +71,4 @@ C {devices/gnd.sym} -170 120 0 0 {name=l4 lab=GND}
 C {devices/iopin.sym} 120 60 2 0 {name=p1 lab=wbVd_h}
 C {devices/iopin.sym} 120 80 2 0 {name=p7 lab=wbVg_h}
 C {devices/gnd.sym} 140 100 0 1 {name=l1 lab=GND}
-C {GSense_nFET_1f1WL150n_V1.sym} 290 80 0 1 {name=x1}
+C {GSense_nFET_16VD_5Vg_5nf.sym} 290 80 0 1 {name=x1}

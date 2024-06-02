@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717276343
+timestamp 1717279040
 << error_s >>
-rect 582 82 640 88
-rect 582 48 594 82
-rect 582 42 640 48
+rect 586 76 644 82
+rect 586 42 598 76
+rect 586 36 644 42
 << metal1 >>
 rect -600 -40 -400 0
 rect 1600 -40 1800 0
@@ -16,8 +16,8 @@ rect 1600 -200 1800 -160
 rect 540 -780 680 -240
 rect 480 -980 680 -780
 use sky130_fd_pr__nfet_01v8_J36GRF  XM3
-timestamp 1717270419
-transform 1 0 611 0 1 -90
+timestamp 1717279040
+transform 1 0 615 0 1 -96
 box -211 -310 211 310
 << labels >>
 flabel metal1 1600 -200 1800 0 0 FreeSans 256 0 0 0 VLow_Src

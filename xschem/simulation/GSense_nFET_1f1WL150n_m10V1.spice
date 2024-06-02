@@ -1,0 +1,6 @@
+** sch_path: /home/parallels/Specere_ThermVeh/xschem/GSense_nFET_1f1WL150n_m10V1.sch
+.subckt GSense_nFET_1f1WL150n_m10V1 VD_H VG_H VLow_Src
+*.PININFO VG_H:B VD_H:B VLow_Src:B
+XM3 VD_H VG_H VLow_Src VLow_Src sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=10
+.ends
+.end
