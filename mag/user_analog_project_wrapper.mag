@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717300513
+timestamp 1717352314
 << pwell >>
 rect 345714 628229 371128 629058
 << mvpsubdiff >>
@@ -1526,7 +1526,7 @@ rect 363318 601439 365147 615307
 rect 363318 597363 363445 601439
 rect 364961 597363 365147 601439
 rect 363318 597052 365147 597363
-use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_0
+use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_1
 timestamp 1717297085
 transform 1 0 148200 0 1 57964
 box -28200 -27964 31120 25800
@@ -1534,22 +1534,46 @@ use GSense_Contacts_nFT_g5_10Vd_1nf  GSense_Contacts_nFT_g5_10Vd_1nf_0
 timestamp 1717298111
 transform 1 0 238200 0 1 57964
 box -28200 -27964 31120 25800
+use GSense_Contacts_nFT_g5_10Vd_1nf  GSense_Contacts_nFT_g5_10Vd_1nf_1
+timestamp 1717298111
+transform 1 0 508200 0 1 57964
+box -28200 -27964 31120 25800
 use GSense_Contacts_pfet_1p8Vd_1p8Vg  GSense_Contacts_pfet_1p8Vd_1p8Vg_0
 timestamp 1717299190
 transform 1 0 58200 0 1 147964
 box -28200 -27964 31120 25800
+use GSense_Contacts_pfet_1p8Vd_1p8Vg  GSense_Contacts_pfet_1p8Vd_1p8Vg_1
+timestamp 1717299190
+transform 1 0 328200 0 1 147964
+box -28200 -27964 31120 25800
 use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_0
 timestamp 1717279150
+transform 1 0 238200 0 1 147964
+box -28200 -27964 31120 25800
+use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_1
+timestamp 1717279150
+transform 1 0 328200 0 1 57964
+box -28200 -27964 31120 25800
+use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_2
+timestamp 1717279150
 transform 1 0 58200 0 1 57964
+box -28200 -27964 31120 25800
+use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_3
+timestamp 1717279150
+transform 1 0 508200 0 1 147964
 box -28200 -27964 31120 25800
 use GSense_pFET_10Vd_5p5Vg_1nf  GSense_pFET_10Vd_5p5Vg_1nf_0
 timestamp 1717300160
 transform 1 0 148200 0 1 147964
 box -28200 -27964 31120 25800
+use GSense_pFET_10Vd_5p5Vg_1nf  GSense_pFET_10Vd_5p5Vg_1nf_1
+timestamp 1717300160
+transform 1 0 418200 0 1 147964
+box -28200 -27964 31120 25800
 use user_analog_proj_example  user_analog_proj_example_0
 timestamp 1717259173
 transform 1 0 345668 0 -1 627114
-box -73 -12 25490 8324
+box -59 -12 25476 8324
 << labels >>
 flabel metal3 s 572152 640142 580220 644150 0 FreeSans 20000 0 0 0 VCCD1
 flabel metal3 s 567038 550960 577302 554546 0 FreeSans 20000 0 0 0 VDDA1
