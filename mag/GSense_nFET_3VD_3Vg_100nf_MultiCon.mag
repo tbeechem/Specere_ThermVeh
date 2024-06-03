@@ -1,0 +1,38 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717355754
+<< error_s >>
+rect 420 -611 427 -544
+rect 454 -645 461 -578
+rect 1956 -607 1971 -523
+rect 490 -614 573 -611
+rect 691 -614 849 -611
+rect 967 -614 1125 -611
+rect 1233 -614 1401 -611
+rect 1509 -614 1677 -611
+rect 719 -642 811 -639
+rect 995 -642 1040 -639
+rect 1074 -642 1087 -639
+rect 1271 -642 1363 -639
+rect 490 -648 539 -645
+rect 724 -648 815 -645
+rect 992 -648 1091 -645
+rect 1267 -648 1367 -645
+rect 1509 -713 1540 -614
+rect 1984 -635 1999 -495
+rect 2015 -635 2018 -495
+rect 2043 -607 2046 -523
+rect 1547 -642 1598 -639
+rect 1632 -642 1639 -639
+rect 1543 -648 1643 -645
+rect 1543 -679 1574 -648
+use GSense_nFET_Multifinger_Contacts  GSense_nFET_Multifinger_Contacts_0 ~/Specere_ThermVeh/mag
+timestamp 1717355237
+transform 1 0 470 0 1 -230
+box -16 -1206 1550 50
+use sky130_fd_pr__nfet_03v3_nvt_YMASSR  XM1
+timestamp 0
+transform 1 0 13875 0 1 -565
+box -13940 -300 13940 300
+<< end >>

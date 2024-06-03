@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717352718
+timestamp 1717354540
 << metal1 >>
 rect 5996 12654 7448 13018
 rect 5996 11830 6392 12654
@@ -340,6 +340,6 @@ transform 1 0 315 0 1 -138
 box 0 0 1 1
 use GSense_nFET_3VD_3Vg_5nf_V2  GSense_nFET_3VD_3Vg_5nf_V2_1 ~/Specere_ThermVeh/mag
 timestamp 1717349526
-transform 1 0 465 0 1 -194
+transform 1 0 325 0 1 -174
 box -65 -1206 1595 50
 << end >>
