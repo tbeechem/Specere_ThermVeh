@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1717460090
+timestamp 1717459927
 << metal2 >>
 rect 262 -400 318 240
 rect 853 -400 909 240
@@ -695,26 +695,6 @@ rect 108647 351150 111147 352400
 rect 113797 351150 116297 352400
 rect 159497 351150 161997 352400
 rect 164647 351150 167147 352400
-use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_0 ~/Specere_ThermVeh/mag
-timestamp 1717297085
-transform 1 0 209100 0 1 291482
-box -14100 -13982 15560 12900
-use GSense_Contacts_nFT_g5_10Vd_1nf  GSense_Contacts_nFT_g5_10Vd_1nf_1 ~/Specere_ThermVeh/mag
-timestamp 1717298111
-transform 1 0 254100 0 1 291482
-box -14100 -13982 15560 12900
-use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_1 ~/Specere_ThermVeh/mag
-timestamp 1717279150
-transform 1 0 164100 0 1 328982
-box -14100 -13982 15560 12900
-use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_3
-timestamp 1717279150
-transform 1 0 254100 0 1 328982
-box -14100 -13982 15560 12900
-use GSense_pFET_10Vd_5p5Vg_1nf  GSense_pFET_10Vd_5p5Vg_1nf_1 ~/Specere_ThermVeh/mag
-timestamp 1717300160
-transform 1 0 209100 0 1 328982
-box -14100 -13982 15560 12900
 use transistor_layout_20240603  transistor_layout_20240603_0
 timestamp 1717455510
 transform 1 0 99 0 1 -962
