@@ -1,0 +1,1519 @@
+
+TOP SOURCE: user_project_wrapper
+SOURCE FILE(S): /home/edw3/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /home/edw3/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /home/edw3/Specere_ThermVeh/verilog/gl/user_proj_example.v
+ /home/edw3/Specere_ThermVeh/verilog/gl/user_project_wrapper.v
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/edw3/Specere_ThermVeh/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: 
+LVS_NOFLATTEN: 
+LVS_IGNORE: 
+WORK_ROOT   : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp
+LOG_ROOT    : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs
+SIGNOFF_ROOT: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/outputs/reports
+ 
+Running hierarchical comparison between verilog and layout...
+Creating /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/verilog.cells from the following files...
+	/home/edw3/Specere_ThermVeh/verilog/gl/user_proj_example.v
+	/home/edw3/Specere_ThermVeh/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /home/edw3/Specere_ThermVeh/gds/user_project_wrapper.gds
+	to /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/hier.csv
+ 
+Running soft connection check on layout...
+WARNING: Tech files do not match:
+/home/edw3/pdk/sky130A/libs.tech/magic/sky130A.tech: version 1.0.470-0-g6d4d117
+/home/edw3/mpw_precheck/checks/be_checks//tech/sky130A/sky130A.tech: version 1.0.470-0-g6d4d117
+Results may be incorrect. Contact efabless to update the soft connection rules.
+WORK_ROOT   : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp
+LOG_ROOT    : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs
+SIGNOFF_ROOT: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/outputs/reports
+TOP: user_project_wrapper
+LAYOUT: /home/edw3/Specere_ThermVeh/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+Extracting layout with well in background process. See /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext.log.
+Extracting layout without well in background process. See /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext.log.
+Netgen 1.5.254 compiled on Thu May 30 14:56:47 UTC 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Ignoring line starting with token: sky130_fd_pr__nfet_g5v0d10v5_R72FWE
+line number 3 = 'sky130_fd_pr__nfet_g5v0d10v5_R72FWE a_50_n100# a_n242_n322# a_n108_n100# a_n50_n188#'
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+.ENDS occurred outside of a subcircuit!
+line number 5 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5_R72FWE
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__nfet_01v8_J36GRF
+line number 16 = 'sky130_fd_pr__nfet_01v8_J36GRF a_n73_n100# a_n33_n188# a_15_n100# a_n175_n274#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+.ENDS occurred outside of a subcircuit!
+line number 18 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_J36GRF
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__nfet_03v3_nvt_XW2EXC
+line number 29 = 'sky130_fd_pr__nfet_03v3_nvt_XW2EXC a_n4524_n42# a_3638_n42# a_n3538_n42# a_n1764_n42#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt
+Creating placeholder cell definition.
+.ENDS occurred outside of a subcircuit!
+line number 103 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__nfet_03v3_nvt_XW2EXC
+line number 105 = 'sky130_fd_pr__nfet_03v3_nvt_XW2EXC'
+Call to undefined subcircuit VD_H
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__nfet_03v3_nvt_XW2EXC
+line number 127 = 'sky130_fd_pr__nfet_03v3_nvt_XW2EXC'
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ
+line number 161 = 'sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ a_n683_n200# a_n189_n297# a_29_n297# a_189_n200#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 172 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__nfet_g5v0d10v5_TGFUGS
+line number 174 = 'sky130_fd_pr__nfet_g5v0d10v5_TGFUGS a_n792_n200# a_298_n200# a_516_n200# a_734_n200#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 184 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__res_xhigh_po_0p69_S5N9F3
+line number 186 = 'sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 a_124_2496# a_n4122_n2932# a_n4122_2496#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_0p69
+Creating placeholder cell definition.
+.ENDS occurred outside of a subcircuit!
+line number 224 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB
+line number 226 = 'sky130_fd_pr__pfet_g5v0d10v5_3YBPVB a_n80_n297# a_80_n200# w_n338_n497# a_n138_n200#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 228 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__res_generic_nd__hv
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_generic_pd__hv
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_YUHPXE
+line number 243 = 'sky130_fd_pr__pfet_g5v0d10v5_YUHPXE a_n80_n297# a_80_n200# w_n338_n497# a_n138_n200#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 245 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__nfet_g5v0d10v5_PKVMTM
+line number 247 = 'sky130_fd_pr__nfet_g5v0d10v5_PKVMTM a_80_n200# a_n272_n422# a_n138_n200# a_n80_n288#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 249 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC
+line number 251 = 'sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC a_80_n200# a_n272_n422# a_n138_n200# a_n80_n288#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 253 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_YEUEBV
+line number 259 = 'sky130_fd_pr__pfet_g5v0d10v5_YEUEBV a_n792_n200# a_138_n297# a_n298_n297#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 269 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_YUHPBG
+line number 271 = 'sky130_fd_pr__pfet_g5v0d10v5_YUHPBG a_n80_n297# a_80_n200# w_n338_n497# a_n138_n200#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 273 = '.ends'
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB
+line number 284 = 'sky130_fd_pr__pfet_g5v0d10v5_3YBPVB'
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB
+line number 285 = 'sky130_fd_pr__pfet_g5v0d10v5_3YBPVB'
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB
+line number 286 = 'sky130_fd_pr__pfet_g5v0d10v5_3YBPVB'
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5_TGFUGS
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_0p69_S5N9F3
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5_3YBPVB
+Creating placeholder cell definition.
+Call to undefined subcircuit m1_2993_7658#
+Creating placeholder cell definition.
+Call to undefined subcircuit m1_2756_6573#
+Creating placeholder cell definition.
+Call to undefined subcircuit m1_185_6573#
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5_YUHPXE
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5_PKVMTM
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5_YEUEBV
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5_YUHPBG
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__pfet_g5v0d10v5_WLCVX2
+line number 336 = 'sky130_fd_pr__pfet_g5v0d10v5_WLCVX2 a_n50_n197# a_50_n100# a_n108_n100#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 338 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5_WLCVX2
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__nfet_03v3_nvt_J2JJF2
+line number 349 = 'sky130_fd_pr__nfet_03v3_nvt_J2JJF2 a_858_n42# a_30_n42# a_306_n42# a_n798_n42#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 364 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt_J2JJF2
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__nfet_03v3_nvt_EJ4KLV
+line number 377 = 'sky130_fd_pr__nfet_03v3_nvt_EJ4KLV a_50_n100# a_n242_n322# a_n108_n100# a_n50_n188#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 379 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt_EJ4KLV
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__nfet_03v3_nvt_VB5P9F
+line number 396 = 'sky130_fd_pr__nfet_03v3_nvt_VB5P9F a_50_n42# a_326_n42# a_n226_n42# a_168_n42#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+.ENDS occurred outside of a subcircuit!
+line number 404 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt_VB5P9F
+Creating placeholder cell definition.
+Ignoring line starting with token: sky130_fd_pr__pfet_01v8_8JS3FC
+line number 416 = 'sky130_fd_pr__pfet_01v8_8JS3FC a_n73_n100# a_15_n100# a_n33_n197#'
+Cell: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice exists already, and will be overwritten.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+.ENDS occurred outside of a subcircuit!
+line number 418 = '.ends'
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_8JS3FC
+Creating placeholder cell definition.
+File /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice read with 22 warnings.
+Reading netlist file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_0p69
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_generic_nd__hv
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_generic_pd__hv
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+
+Reading setup file /home/edw3/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_xhigh_po_0p69 pin 1 == 2
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property value found for device sky130_fd_pr__res_xhigh_po_0p69
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property mult found for device sky130_fd_pr__res_xhigh_po_0p69
+Model sky130_fd_pr__res_xhigh_po_0p69 pin 1 == 2
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property value found for device sky130_fd_pr__res_xhigh_po_0p69
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property mult found for device sky130_fd_pr__res_xhigh_po_0p69
+Model sky130_fd_pr__res_generic_nd__hv pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_nd__hv
+No property mult found for device sky130_fd_pr__res_generic_nd__hv
+Model sky130_fd_pr__res_generic_nd__hv pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_nd__hv
+No property mult found for device sky130_fd_pr__res_generic_nd__hv
+Model sky130_fd_pr__res_generic_pd__hv pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_pd__hv
+No property mult found for device sky130_fd_pr__res_generic_pd__hv
+Model sky130_fd_pr__res_generic_pd__hv pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_pd__hv
+No property mult found for device sky130_fd_pr__res_generic_pd__hv
+Model sky130_fd_pr__res_generic_m3 pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_m3
+Model sky130_fd_pr__res_generic_m3 pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_m3
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__nfet_g5v0d10v5
+No property area found for device sky130_fd_pr__nfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__nfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__nfet_g5v0d10v5
+Model sky130_fd_pr__nfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__nfet_g5v0d10v5
+No property area found for device sky130_fd_pr__nfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__nfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__nfet_g5v0d10v5
+Model sky130_fd_pr__nfet_03v3_nvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_03v3_nvt
+No property sa found for device sky130_fd_pr__nfet_03v3_nvt
+No property sb found for device sky130_fd_pr__nfet_03v3_nvt
+No property sd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nf found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrs found for device sky130_fd_pr__nfet_03v3_nvt
+No property area found for device sky130_fd_pr__nfet_03v3_nvt
+No property perim found for device sky130_fd_pr__nfet_03v3_nvt
+No property topography found for device sky130_fd_pr__nfet_03v3_nvt
+Model sky130_fd_pr__nfet_03v3_nvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_03v3_nvt
+No property sa found for device sky130_fd_pr__nfet_03v3_nvt
+No property sb found for device sky130_fd_pr__nfet_03v3_nvt
+No property sd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nf found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrs found for device sky130_fd_pr__nfet_03v3_nvt
+No property area found for device sky130_fd_pr__nfet_03v3_nvt
+No property perim found for device sky130_fd_pr__nfet_03v3_nvt
+No property topography found for device sky130_fd_pr__nfet_03v3_nvt
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__pfet_g5v0d10v5
+No property area found for device sky130_fd_pr__pfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__pfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__pfet_g5v0d10v5
+Model sky130_fd_pr__pfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__pfet_g5v0d10v5
+No property area found for device sky130_fd_pr__pfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__pfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__pfet_g5v0d10v5
+No property area found for device sky130_fd_pr__cap_mim_m3_1
+No property value found for device sky130_fd_pr__cap_mim_m3_1
+No property mult found for device sky130_fd_pr__cap_mim_m3_1
+No property perim found for device sky130_fd_pr__cap_mim_m3_1
+No property mf found for device sky130_fd_pr__cap_mim_m3_1
+No property area found for device sky130_fd_pr__cap_mim_m3_1
+No property value found for device sky130_fd_pr__cap_mim_m3_1
+No property mult found for device sky130_fd_pr__cap_mim_m3_1
+No property perim found for device sky130_fd_pr__cap_mim_m3_1
+No property mf found for device sky130_fd_pr__cap_mim_m3_1
+No property area found for device sky130_fd_pr__cap_mim_m3_2
+No property value found for device sky130_fd_pr__cap_mim_m3_2
+No property mult found for device sky130_fd_pr__cap_mim_m3_2
+No property perim found for device sky130_fd_pr__cap_mim_m3_2
+No property mf found for device sky130_fd_pr__cap_mim_m3_2
+No property area found for device sky130_fd_pr__cap_mim_m3_2
+No property value found for device sky130_fd_pr__cap_mim_m3_2
+No property mult found for device sky130_fd_pr__cap_mim_m3_2
+No property perim found for device sky130_fd_pr__cap_mim_m3_2
+No property mf found for device sky130_fd_pr__cap_mim_m3_2
+Comparison output logged to file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/soft.report
+Logging to file "/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/soft.report" enabled
+Circuit sky130_fd_pr__cap_mim_m3_2 contains no devices.
+Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
+Circuit sky130_fd_pr__pfet_g5v0d10v5 contains no devices.
+Circuit sky130_fd_pr__res_generic_nd__hv contains no devices.
+Circuit sky130_fd_pr__res_generic_pd__hv contains no devices.
+Circuit sky130_fd_pr__cap_mim_m3_1 contains no devices.
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+Circuit sky130_fd_pr__res_xhigh_po_0p69 contains no devices.
+Circuit sky130_fd_pr__nfet_g5v0d10v5_R72FWE contains no devices.
+Circuit sky130_fd_pr__nfet_01v8_J36GRF contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_pr__cap_mim_m3_2_W5U4AW'
+Circuit sky130_fd_pr__cap_mim_m3_2_W5U4AW contains 1 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_2 instances:   1
+Circuit contains 2 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_pr__cap_mim_m3_2_W5U4AW'
+Circuit sky130_fd_pr__cap_mim_m3_2_W5U4AW contains 1 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_2 instances:   1
+Circuit contains 2 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 2 nets,    Circuit 2 contains 2 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hvl__buf_8'
+Circuit sky130_fd_sc_hvl__buf_8 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   2
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hvl__buf_8'
+Circuit sky130_fd_sc_hvl__buf_8 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   2
+Circuit contains 5 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 5 nets,    Circuit 2 contains 5 nets.
+
+Circuit sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ contains no devices.
+Circuit sky130_fd_pr__nfet_g5v0d10v5_TGFUGS contains no devices.
+Circuit sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 contains no devices.
+Circuit sky130_fd_pr__pfet_g5v0d10v5_3YBPVB contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hvl__schmittbuf_1'
+Circuit sky130_fd_sc_hvl__schmittbuf_1 contains 10 device instances.
+  Class: sky130_fd_pr__res_generic_pd__hv instances:   1
+  Class: sky130_fd_pr__res_generic_nd__hv instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   4
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   4
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hvl__schmittbuf_1'
+Circuit sky130_fd_sc_hvl__schmittbuf_1 contains 10 device instances.
+  Class: sky130_fd_pr__res_generic_pd__hv instances:   1
+  Class: sky130_fd_pr__res_generic_nd__hv instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   4
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   4
+Circuit contains 9 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
+
+Circuit sky130_fd_pr__pfet_g5v0d10v5_YUHPXE contains no devices.
+Circuit sky130_fd_pr__nfet_g5v0d10v5_PKVMTM contains no devices.
+Circuit sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_pr__cap_mim_m3_1_WRT4AW'
+Circuit sky130_fd_pr__cap_mim_m3_1_WRT4AW contains 1 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:   1
+Circuit contains 2 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_pr__cap_mim_m3_1_WRT4AW'
+Circuit sky130_fd_pr__cap_mim_m3_1_WRT4AW contains 1 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:   1
+Circuit contains 2 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 2 nets,    Circuit 2 contains 2 nets.
+
+Circuit sky130_fd_pr__pfet_g5v0d10v5_YEUEBV contains no devices.
+Circuit sky130_fd_pr__pfet_g5v0d10v5_YUHPBG contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hvl__inv_8'
+Circuit sky130_fd_sc_hvl__inv_8 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hvl__inv_8'
+Circuit sky130_fd_sc_hvl__inv_8 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+Circuit sky130_fd_pr__nfet_03v3_nvt_J2JJF2 contains no devices.
+Circuit sky130_fd_pr__nfet_03v3_nvt_EJ4KLV contains no devices.
+Circuit sky130_fd_pr__nfet_03v3_nvt_VB5P9F contains no devices.
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_10VD_5Vg_1nf'
+Circuit GSense_nFET_10VD_5Vg_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_R72FWE instances:   1
+Circuit contains 6 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_10VD_5Vg_1nf'
+Circuit GSense_nFET_10VD_5Vg_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_R72FWE instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+  Flattening non-matched subcircuits GSense_nFET_10VD_5Vg_1nf GSense_nFET_10VD_5Vg_1nf
+
+Flattening instances of GSense_nFET_10VD_5Vg_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_10VD_5Vg_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_1f1WL150n_V1'
+Circuit GSense_nFET_1f1WL150n_V1 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_01v8_J36GRF instances:   1
+Circuit contains 6 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_1f1WL150n_V1'
+Circuit GSense_nFET_1f1WL150n_V1 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_01v8_J36GRF instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+  Flattening non-matched subcircuits GSense_nFET_1f1WL150n_V1 GSense_nFET_1f1WL150n_V1
+
+Flattening instances of GSense_nFET_1f1WL150n_V1 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_1f1WL150n_V1 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH contains 1 device instances.
+  Class: VD_H                  instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH contains 51 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:  51
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH contains 1 device instances.
+  Class: VD_H                  instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH contains 2 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   2
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 2 devices. *** MISMATCH ***
+Circuit 1 contains 5 nets,    Circuit 2 contains 4 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH
+
+Flattening instances of GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline contains 1 device instances.
+  Class: VD_H                  instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline contains 51 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:  51
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline contains 1 device instances.
+  Class: VD_H                  instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline'
+Circuit GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline contains 2 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   2
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 2 devices. *** MISMATCH ***
+Circuit 1 contains 5 nets,    Circuit 2 contains 4 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline
+
+Flattening instances of GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'example_por'
+Circuit example_por contains 18 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_TGFUGS instances:   1
+  Class: m1_185_6573#          instances:   1
+  Class: sky130_fd_pr__cap_mim_m3_2_W5U4AW instances:   1
+  Class: sky130_fd_pr__cap_mim_m3_1_WRT4AW instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5_PKVMTM instances:   1
+  Class: m1_2756_6573#         instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YEUEBV instances:   1
+  Class: sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPBG instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ instances:   1
+  Class: sky130_fd_sc_hvl__buf_8 instances:   2
+  Class: sky130_fd_sc_hvl__schmittbuf_1 instances:   1
+  Class: sky130_fd_sc_hvl__inv_8 instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPXE instances:   1
+  Class: m1_2993_7658#         instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB instances:   1
+Circuit contains 158 nets.
+Contents of circuit 2:  Circuit: 'example_por'
+Circuit example_por contains 18 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_TGFUGS instances:   1
+  Class: sky130_fd_pr__cap_mim_m3_2_W5U4AW instances:   1
+  Class: sky130_fd_pr__cap_mim_m3_1_WRT4AW instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5_PKVMTM instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YEUEBV instances:   1
+  Class: sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPBG instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ instances:   1
+  Class: sky130_fd_sc_hvl__buf_8 instances:   2
+  Class: sky130_fd_sc_hvl__schmittbuf_1 instances:   1
+  Class: sky130_fd_sc_hvl__inv_8 instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPXE instances:   1
+  Class: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB instances:   4
+Circuit contains 167 nets.
+
+Circuit 1 contains 18 devices, Circuit 2 contains 18 devices.
+Circuit 1 contains 158 nets,    Circuit 2 contains 167 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits example_por example_por
+
+Flattening instances of example_por in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of example_por in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3VD_3Vg_10nf_V2'
+Circuit GSense_nFET_3VD_3Vg_10nf_V2 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_J2JJF2 instances:   1
+Circuit contains 35 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3VD_3Vg_10nf_V2'
+Circuit GSense_nFET_3VD_3Vg_10nf_V2 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_J2JJF2 instances:   1
+Circuit contains 34 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 35 nets,    Circuit 2 contains 34 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits GSense_nFET_3VD_3Vg_10nf_V2 GSense_nFET_3VD_3Vg_10nf_V2
+
+Flattening instances of GSense_nFET_3VD_3Vg_10nf_V2 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_3VD_3Vg_10nf_V2 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3VD_3Vg_1nf'
+Circuit GSense_nFET_3VD_3Vg_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_EJ4KLV instances:   1
+Circuit contains 6 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3VD_3Vg_1nf'
+Circuit GSense_nFET_3VD_3Vg_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_EJ4KLV instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+  Flattening non-matched subcircuits GSense_nFET_3VD_3Vg_1nf GSense_nFET_3VD_3Vg_1nf
+
+Flattening instances of GSense_nFET_3VD_3Vg_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_3VD_3Vg_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3VD_3Vg_5nf_V2'
+Circuit GSense_nFET_3VD_3Vg_5nf_V2 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_VB5P9F instances:   1
+Circuit contains 19 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3VD_3Vg_5nf_V2'
+Circuit GSense_nFET_3VD_3Vg_5nf_V2 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_VB5P9F instances:   1
+Circuit contains 19 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 19 nets,    Circuit 2 contains 19 nets.
+
+  Flattening non-matched subcircuits GSense_nFET_3VD_3Vg_5nf_V2 GSense_nFET_3VD_3Vg_5nf_V2
+
+Flattening instances of GSense_nFET_3VD_3Vg_5nf_V2 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_3VD_3Vg_5nf_V2 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_Contacts_nFT_g5_10Vd_1nf'
+Circuit GSense_Contacts_nFT_g5_10Vd_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_R72FWE instances:   1
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'GSense_Contacts_nFT_g5_10Vd_1nf'
+Circuit GSense_Contacts_nFT_g5_10Vd_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_R72FWE instances:   1
+Circuit contains 9 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+  Flattening non-matched subcircuits GSense_Contacts_nFT_g5_10Vd_1nf GSense_Contacts_nFT_g5_10Vd_1nf
+
+Flattening instances of GSense_Contacts_nFT_g5_10Vd_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_Contacts_nFT_g5_10Vd_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_1W015L_1F_Contacts'
+Circuit GSense_nFET_1W015L_1F_Contacts contains 1 device instances.
+  Class: sky130_fd_pr__nfet_01v8_J36GRF instances:   1
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_1W015L_1F_Contacts'
+Circuit GSense_nFET_1W015L_1F_Contacts contains 1 device instances.
+  Class: sky130_fd_pr__nfet_01v8_J36GRF instances:   1
+Circuit contains 9 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+  Flattening non-matched subcircuits GSense_nFET_1W015L_1F_Contacts GSense_nFET_1W015L_1F_Contacts
+
+Flattening instances of GSense_nFET_1W015L_1F_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_1W015L_1F_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'nFET_3p3Vd_3VG_51NF_LTherm_Contacts'
+Circuit nFET_3p3Vd_3VG_51NF_LTherm_Contacts contains 1 device instances.
+  Class: VD_H                  instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'nFET_3p3Vd_3VG_51NF_LTherm_Contacts'
+Circuit nFET_3p3Vd_3VG_51NF_LTherm_Contacts contains 2 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   2
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 2 devices. *** MISMATCH ***
+Circuit 1 contains 5 nets,    Circuit 2 contains 4 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits nFET_3p3Vd_3VG_51NF_LTherm_Contacts nFET_3p3Vd_3VG_51NF_LTherm_Contacts
+
+Flattening instances of nFET_3p3Vd_3VG_51NF_LTherm_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of nFET_3p3Vd_3VG_51NF_LTherm_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts'
+Circuit nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts contains 1 device instances.
+  Class: VD_H                  instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts'
+Circuit nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts contains 2 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   2
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 2 devices. *** MISMATCH ***
+Circuit 1 contains 5 nets,    Circuit 2 contains 4 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts
+
+Flattening instances of nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'user_analog_proj_example'
+Circuit user_analog_proj_example contains 36 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_TGFUGS instances:   2
+  Class: m1_185_6573#          instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_2_W5U4AW instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_1_WRT4AW instances:   2
+  Class: sky130_fd_pr__nfet_g5v0d10v5_PKVMTM instances:   2
+  Class: m1_2756_6573#         instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YEUEBV instances:   2
+  Class: sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPBG instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ instances:   2
+  Class: sky130_fd_sc_hvl__buf_8 instances:   4
+  Class: sky130_fd_sc_hvl__schmittbuf_1 instances:   2
+  Class: sky130_fd_sc_hvl__inv_8 instances:   2
+  Class: sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPXE instances:   2
+  Class: m1_2993_7658#         instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB instances:   2
+Circuit contains 315 nets.
+Contents of circuit 2:  Circuit: 'user_analog_proj_example'
+Circuit user_analog_proj_example contains 36 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_TGFUGS instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_2_W5U4AW instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_1_WRT4AW instances:   2
+  Class: sky130_fd_pr__nfet_g5v0d10v5_PKVMTM instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YEUEBV instances:   2
+  Class: sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPBG instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ instances:   2
+  Class: sky130_fd_sc_hvl__buf_8 instances:   4
+  Class: sky130_fd_sc_hvl__schmittbuf_1 instances:   2
+  Class: sky130_fd_sc_hvl__inv_8 instances:   2
+  Class: sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPXE instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB instances:   8
+Circuit contains 334 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 315 nets,    Circuit 2 contains 334 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits user_analog_proj_example user_analog_proj_example
+
+Flattening instances of user_analog_proj_example in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of user_analog_proj_example in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'nFET_3VD_3VG_10nF_Contacts'
+Circuit nFET_3VD_3VG_10nF_Contacts contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_J2JJF2 instances:   1
+Circuit contains 35 nets.
+Contents of circuit 2:  Circuit: 'nFET_3VD_3VG_10nF_Contacts'
+Circuit nFET_3VD_3VG_10nF_Contacts contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_J2JJF2 instances:   1
+Circuit contains 34 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 35 nets,    Circuit 2 contains 34 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits nFET_3VD_3VG_10nF_Contacts nFET_3VD_3VG_10nF_Contacts
+
+Flattening instances of nFET_3VD_3VG_10nF_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of nFET_3VD_3VG_10nF_Contacts in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_Contacts_nFET_3V_1nf'
+Circuit GSense_Contacts_nFET_3V_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_EJ4KLV instances:   1
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'GSense_Contacts_nFET_3V_1nf'
+Circuit GSense_Contacts_nFET_3V_1nf contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_EJ4KLV instances:   1
+Circuit contains 9 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+  Flattening non-matched subcircuits GSense_Contacts_nFET_3V_1nf GSense_Contacts_nFET_3V_1nf
+
+Flattening instances of GSense_Contacts_nFET_3V_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_Contacts_nFET_3V_1nf in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'nFET_3VD_3VG_50nF_Therm_FET12'
+Circuit nFET_3VD_3VG_50nF_Therm_FET12 contains 1 device instances.
+  Class: VD_H                  instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'nFET_3VD_3VG_50nF_Therm_FET12'
+Circuit nFET_3VD_3VG_50nF_Therm_FET12 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   2
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 2 devices. *** MISMATCH ***
+Circuit 1 contains 5 nets,    Circuit 2 contains 4 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits nFET_3VD_3VG_50nF_Therm_FET12 nFET_3VD_3VG_50nF_Therm_FET12
+
+Flattening instances of nFET_3VD_3VG_50nF_Therm_FET12 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of nFET_3VD_3VG_50nF_Therm_FET12 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'GSense_nFET_3p3V_5nF_Contacts_V2'
+Circuit GSense_nFET_3p3V_5nF_Contacts_V2 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_VB5P9F instances:   1
+Circuit contains 19 nets.
+Contents of circuit 2:  Circuit: 'GSense_nFET_3p3V_5nF_Contacts_V2'
+Circuit GSense_nFET_3p3V_5nF_Contacts_V2 contains 1 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt_VB5P9F instances:   1
+Circuit contains 19 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 19 nets,    Circuit 2 contains 19 nets.
+
+  Flattening non-matched subcircuits GSense_nFET_3p3V_5nF_Contacts_V2 GSense_nFET_3p3V_5nF_Contacts_V2
+
+Flattening instances of GSense_nFET_3p3V_5nF_Contacts_V2 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of GSense_nFET_3p3V_5nF_Contacts_V2 in file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 77 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_TGFUGS instances:   2
+  Class: m1_185_6573#          instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_2_W5U4AW instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_1_WRT4AW instances:   2
+  Class: VD_H                  instances:  11
+  Class: sky130_fd_pr__nfet_03v3_nvt_J2JJF2 instances:   4
+  Class: sky130_fd_pr__nfet_01v8_J36GRF instances:   6
+  Class: sky130_fd_pr__nfet_g5v0d10v5_PKVMTM instances:   2
+  Class: m1_2756_6573#         instances:   2
+  Class: sky130_fd_pr__nfet_03v3_nvt_VB5P9F instances:   3
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YEUEBV instances:   2
+  Class: sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPBG instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ instances:   2
+  Class: sky130_fd_sc_hvl__buf_8 instances:   4
+  Class: sky130_fd_sc_hvl__schmittbuf_1 instances:   2
+  Class: sky130_fd_pr__nfet_03v3_nvt_EJ4KLV instances:   4
+  Class: sky130_fd_sc_hvl__inv_8 instances:   2
+  Class: sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPXE instances:   2
+  Class: m1_2993_7658#         instances:   2
+  Class: sky130_fd_pr__res_generic_m3 instances:  10
+  Class: sky130_fd_pr__nfet_g5v0d10v5_R72FWE instances:   3
+  Class: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB instances:   2
+Circuit contains 675 nets.
+Contents of circuit 2:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 52 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5_TGFUGS instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_2_W5U4AW instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_1_WRT4AW instances:   2
+  Class: sky130_fd_pr__nfet_01v8_J36GRF instances:   6
+  Class: sky130_fd_pr__nfet_g5v0d10v5_PKVMTM instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YEUEBV instances:   2
+  Class: sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPBG instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ instances:   2
+  Class: sky130_fd_sc_hvl__buf_8 instances:   4
+  Class: sky130_fd_sc_hvl__schmittbuf_1 instances:   2
+  Class: sky130_fd_sc_hvl__inv_8 instances:   2
+  Class: sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC instances:   2
+  Class: sky130_fd_pr__pfet_g5v0d10v5_YUHPXE instances:   2
+  Class: sky130_fd_pr__res_generic_m3 instances:  10
+  Class: sky130_fd_pr__pfet_g5v0d10v5_3YBPVB instances:   8
+Circuit contains 403 nets.
+
+Circuit 1 contains 77 devices, Circuit 2 contains 52 devices. *** MISMATCH ***
+Circuit 1 contains 630 nets,    Circuit 2 contains 379 nets. *** MISMATCH ***
+
+
+Final result: 
+Netlists do not match.
+Logging to file "/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/soft.report" disabled
+LVS Done.
+scheck status 0
+ 
+Running LVS...
+TOP SOURCE: user_project_wrapper
+SOURCE FILE(S): /home/edw3/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /home/edw3/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /home/edw3/Specere_ThermVeh/verilog/gl/user_proj_example.v
+ /home/edw3/Specere_ThermVeh/verilog/gl/user_project_wrapper.v
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/edw3/Specere_ThermVeh/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: 
+LVS_NOFLATTEN: 
+LVS_IGNORE: 
+WORK_ROOT   : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp
+LOG_ROOT    : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs
+SIGNOFF_ROOT: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/outputs/reports
+Reusing /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.spice.
+ 
+Netgen 1.5.254 compiled on Thu May 30 14:56:47 UTC 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading layout /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.gds.spice...
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_0p69
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_generic_nd__hv
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_generic_pd__hv
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Warning:  Cell GSense_pFET_10Vd_5p5Vg_1nf has no pins
+Warning:  Cell GSense_pFET_10Vd_5p5Vg_1nf has no pins
+Warning:  Cell GSense_pFET_10Vd_5p5Vg_1nf has no pins
+Warning:  Cell GSense_Contacts_pfet_1p8Vd_1p8Vg has no pins
+Warning:  Cell GSense_Contacts_pfet_1p8Vd_1p8Vg has no pins
+Warning:  Cell GSense_Contacts_pfet_1p8Vd_1p8Vg has no pins
+Reading source /home/edw3/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Reading source /home/edw3/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice...
+Call to undefined subcircuit sky130_fd_pr__special_nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
+Creating placeholder cell definition.
+Reading source /home/edw3/Specere_ThermVeh/verilog/gl/user_proj_example.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Note:  Implicit pin HI in instance user_proj_example_145 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_146 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_147 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_148 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_149 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_150 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_151 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_152 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_153 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_154 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_155 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_156 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_157 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_158 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_159 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_160 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_161 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_162 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_163 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_164 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_165 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_166 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_167 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_168 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_169 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_170 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_171 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_172 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_173 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_174 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_175 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_176 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_177 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_178 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_179 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_180 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_181 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_182 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_183 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_184 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_185 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_186 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_187 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_188 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_189 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_190 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_191 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_192 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_193 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_194 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_195 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_196 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_197 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_198 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_199 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_200 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_201 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_202 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_203 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_204 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_205 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_206 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_207 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_208 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_209 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_210 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_211 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_212 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_213 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_214 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_215 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_216 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_217 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_218 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_219 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_220 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_221 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_222 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_223 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_224 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_225 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_226 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_227 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_228 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_229 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_230 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_231 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_232 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_233 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_234 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_235 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_236 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_237 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_238 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_239 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_240 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_241 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_242 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_243 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_244 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_245 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_246 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_247 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_248 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_249 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_250 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_251 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_252 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_253 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_254 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_255 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_256 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_257 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_258 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_259 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_260 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_261 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_262 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_263 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_264 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_265 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_266 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_267 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_268 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_269 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_270 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_271 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_272 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_273 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_274 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Note:  Implicit pin HI in instance user_proj_example_275 of sky130_fd_sc_hd__conb_1 in cell user_proj_example
+Reading source /home/edw3/Specere_ThermVeh/verilog/gl/user_project_wrapper.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Treating empty subcircuits as black-box cells
+Generating JSON file result
+
+Reading setup file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_xhigh_po_0p69 pin 1 == 2
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property value found for device sky130_fd_pr__res_xhigh_po_0p69
+No property w found for device sky130_fd_pr__res_xhigh_po_0p69
+No property mult found for device sky130_fd_pr__res_xhigh_po_0p69
+Model sky130_fd_pr__res_generic_nd__hv pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_nd__hv
+No property mult found for device sky130_fd_pr__res_generic_nd__hv
+Model sky130_fd_pr__res_generic_pd__hv pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_pd__hv
+No property mult found for device sky130_fd_pr__res_generic_pd__hv
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__res_generic_m3 pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_m3
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__nfet_g5v0d10v5
+No property area found for device sky130_fd_pr__nfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__nfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__nfet_g5v0d10v5
+Model sky130_fd_pr__nfet_03v3_nvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_03v3_nvt
+No property sa found for device sky130_fd_pr__nfet_03v3_nvt
+No property sb found for device sky130_fd_pr__nfet_03v3_nvt
+No property sd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nf found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrs found for device sky130_fd_pr__nfet_03v3_nvt
+No property area found for device sky130_fd_pr__nfet_03v3_nvt
+No property perim found for device sky130_fd_pr__nfet_03v3_nvt
+No property topography found for device sky130_fd_pr__nfet_03v3_nvt
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Model sky130_fd_pr__pfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__pfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__pfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__pfet_g5v0d10v5
+No property area found for device sky130_fd_pr__pfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__pfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__pfet_g5v0d10v5
+Model sky130_fd_pr__special_nfet_01v8 pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_01v8
+No property ad found for device sky130_fd_pr__special_nfet_01v8
+No property ps found for device sky130_fd_pr__special_nfet_01v8
+No property pd found for device sky130_fd_pr__special_nfet_01v8
+No property mult found for device sky130_fd_pr__special_nfet_01v8
+No property sa found for device sky130_fd_pr__special_nfet_01v8
+No property sb found for device sky130_fd_pr__special_nfet_01v8
+No property sd found for device sky130_fd_pr__special_nfet_01v8
+No property nf found for device sky130_fd_pr__special_nfet_01v8
+No property nrd found for device sky130_fd_pr__special_nfet_01v8
+No property nrs found for device sky130_fd_pr__special_nfet_01v8
+No property area found for device sky130_fd_pr__special_nfet_01v8
+No property perim found for device sky130_fd_pr__special_nfet_01v8
+No property topography found for device sky130_fd_pr__special_nfet_01v8
+Model sky130_fd_pr__special_pfet_01v8_hvt pin 1 == 3
+No property as found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property ad found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property ps found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property pd found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property mult found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property area found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property value found for device sky130_fd_pr__diode_pw2nd_05v5
+No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
+No property perim found for device sky130_fd_pr__diode_pw2nd_05v5
+No property area found for device sky130_fd_pr__cap_mim_m3_1
+No property value found for device sky130_fd_pr__cap_mim_m3_1
+No property mult found for device sky130_fd_pr__cap_mim_m3_1
+No property perim found for device sky130_fd_pr__cap_mim_m3_1
+No property mf found for device sky130_fd_pr__cap_mim_m3_1
+No property area found for device sky130_fd_pr__cap_mim_m3_2
+No property value found for device sky130_fd_pr__cap_mim_m3_2
+No property mult found for device sky130_fd_pr__cap_mim_m3_2
+No property perim found for device sky130_fd_pr__cap_mim_m3_2
+No property mf found for device sky130_fd_pr__cap_mim_m3_2
+Matching pins of sky130_fd_pr__nfet_01v8 in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8                                                |Circuit 2: sky130_fd_pr__nfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Comparison output logged to file /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/lvs.report
+Logging to file "/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/lvs.report" enabled
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+
+Contents of circuit 1:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 805 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_2 instances:   2
+  Class: sky130_fd_pr__res_xhigh_po_0p69 instances:  56
+  Class: sky130_fd_pr__res_generic_pd__hv instances:   2
+  Class: sky130_fd_pr__res_generic_nd__hv instances:   2
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_03v3_nvt instances: 620
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  39
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:  63
+  Class: sky130_fd_pr__res_generic_m3 instances:  10
+Circuit contains 249 nets, and 665 disconnected pins.
+Contents of circuit 2:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 701023 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 349862
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 350002
+  Class: sky130_fd_pr__diode_pw2nd_05v5 instances: 765
+  Class: sky130_fd_pr__res_generic_po instances: 262
+  Class: sky130_fd_pr__special_nfet_01v8 instances: 132
+Circuit contains 2433 nets, and 388 disconnected pins.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 104 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:   2
+  Class: sky130_fd_pr__cap_mim_m3_2 instances:   2
+  Class: sky130_fd_pr__res_xhigh_po_0p69 instances:   5
+  Class: sky130_fd_pr__res_generic_pd__hv instances:   2
+  Class: sky130_fd_pr__res_generic_nd__hv instances:   2
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:  19
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  25
+  Class: sky130_fd_pr__pfet_g5v0d10v5 instances:  35
+  Class: sky130_fd_pr__res_generic_m3 instances:  10
+Circuit contains 201 nets, and 665 disconnected pins.
+Contents of circuit 2:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 4469 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 1962
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 2094
+  Class: sky130_fd_pr__diode_pw2nd_05v5 instances: 149
+  Class: sky130_fd_pr__res_generic_po instances: 132
+  Class: sky130_fd_pr__special_nfet_01v8 instances: 132
+Circuit contains 2433 nets, and 388 disconnected pins.
+
+Circuit 1 contains 104 devices, Circuit 2 contains 4469 devices. *** MISMATCH ***
+Circuit 1 contains 126 nets,    Circuit 2 contains 2303 nets. *** MISMATCH ***
+
+
+Final result: 
+Netlists do not match.
+Logging to file "/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/lvs.report" disabled
+LVS Done.
+
+Error: LVS mismatch.
+DESIGN NAME: user_project_wrapper
+WORK_ROOT   : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp
+LOG_ROOT    : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs
+SIGNOFF_ROOT: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/outputs/reports
+ 
+Running CVC...
+Creating /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.cdl
+CVC: Circuit Validation Check  Version 1.1.5
+CVC: Log output to /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/cvc.log
+CVC: Error output to /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/cvc.error.gz
+CVC: Debug output to /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/cvc.debug.gz
+CVC: Start: Mon Jun  3 18:20:48 2024
+
+Using the following parameters for CVC (Circuit Validation Check) from /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/cvcrc
+CVC_TOP = 'user_project_wrapper'
+CVC_NETLIST = '/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.cdl.gz'
+CVC_MODE = 'user_project_wrapper'
+CVC_MODEL_FILE = '/home/edw3/mpw_precheck/checks/be_checks//tech/sky130A/cvc.models'
+CVC_POWER_FILE = '/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/cvc.power.user_project_wrapper'
+CVC_FUSE_FILE = ''
+CVC_REPORT_FILE = '/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/cvc.log'
+CVC_REPORT_TITLE = 'CVC user_project_wrapper'
+CVC_CIRCUIT_ERROR_LIMIT = '100'
+CVC_SEARCH_LIMIT = '100'
+CVC_LEAK_LIMIT = '0.0002'
+CVC_SOI = 'false'
+CVC_SCRC = 'false'
+CVC_VTH_GATES = 'false'
+CVC_MIN_VTH_GATES = 'false'
+CVC_IGNORE_VTH_FLOATING = 'false'
+CVC_IGNORE_NO_LEAK_FLOATING = 'false'
+CVC_LEAK_OVERVOLTAGE = 'true'
+CVC_LOGIC_DIODES = 'false'
+CVC_ANALOG_GATES = 'true'
+CVC_BACKUP_RESULTS = 'false'
+CVC_MOS_DIODE_ERROR_THRESHOLD = '0'
+CVC_SHORT_ERROR_THRESHOLD = '0'
+CVC_BIAS_ERROR_THRESHOLD = '0'
+CVC_FORWARD_ERROR_THRESHOLD = '0'
+CVC_FLOATING_ERROR_THRESHOLD = '0'
+CVC_GATE_ERROR_THRESHOLD = '0'
+CVC_LEAK?_ERROR_THRESHOLD = '0'
+CVC_EXPECTED_ERROR_THRESHOLD = '0'
+CVC_OVERVOLTAGE_ERROR_THRESHOLD = '0'
+CVC_PARALLEL_CIRCUIT_PORT_LIMIT = '0'
+CVC_CELL_ERROR_LIMIT_FILE = ''
+CVC_CELL_CHECKSUM_FILE = ''
+CVC_LARGE_CIRCUIT_SIZE = '10000000'
+CVC_NET_CHECK_FILE = ''
+CVC_MODEL_CHECK_FILE = ''
+End of parameters
+
+CVC: Reading device model settings...
+CVC: Reading power settings...
+CVC: Parsing netlist /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.cdl.gz
+
+Cdl fixed data size 21628
+Usage CDL: Time: 0  Memory: 4580  I/O: 40  Swap: 0
+CVC: Counting and linking...
+CVC: Assigning IDs ...
+Usage DB: Time: 0  Memory: 4580  I/O: 40  Swap: 0
+CVC: 153(153) instances, 914(898) nets, 805(801) devices.
+Setting power for mode...
+Setting models...
+CVC: Setting models ...
+Setting model tolerances...
+CVC: Shorting switches...
+ model short...
+	Shorted 0 short
+ model sky130_fd_pr__res_generic_l1...
+	Shorted 0 sky130_fd_pr__res_generic_l1
+ model sky130_fd_pr__res_generic_m1...
+	Shorted 0 sky130_fd_pr__res_generic_m1
+ model sky130_fd_pr__res_generic_m2...
+	Shorted 0 sky130_fd_pr__res_generic_m2
+ model sky130_fd_pr__res_generic_m3...
+	Shorted 10 sky130_fd_pr__res_generic_m3
+ model sky130_fd_pr__res_generic_m4...
+	Shorted 0 sky130_fd_pr__res_generic_m4
+ model sky130_fd_pr__res_generic_m5...
+	Shorted 0 sky130_fd_pr__res_generic_m5
+Setting instance power...
+CVC: Linking devices...
+
+Usage EQUIV: Time: 0  Memory: 5224  I/O: 96  Swap: 0
+Power nets 380
+CVC: Shorting non conducting resistors...
+CVC: Calculating resistor voltages...
+Usage RES: Time: 0  Memory: 5224  I/O: 104  Swap: 0
+Power nets 405
+CVC: Calculating min/max voltages...
+Processing trivial nets found 9 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 5 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 634 devices
+Usage MIN/MAX1: Time: 0  Memory: 5224  I/O: 104  Swap: 0
+Power nets 418
+! Checking forward bias diode errors: 
+
+! Checking nmos source/drain vs bias errors: 
+
+! Checking nmos gate vs source errors: 
+
+! Checking pmos source/drain vs bias errors: 
+
+! Checking pmos gate vs source errors: 
+
+Usage ERROR: Time: 0  Memory: 5224  I/O: 104  Swap: 0
+Saving min/max voltages...
+CVC: Propagating Simulation voltages 1...
+Usage SIM1: Time: 0  Memory: 5224  I/O: 104  Swap: 0
+Power nets 418
+WARNING: high res bias (27) io_clamp_high[0] r=1893112
+WARNING: missing bias (1) /XGSense_pFET_10Vd_5p5Vg_1nf_0(GSense_pFET_10Vd_5p5Vg_1nf)/XGSense_pFET_10VD_5Vg_1nf_0(GSense_pFET_10VD_5Vg_1nf)/XXM1(sky130_fd_pr__pfet_g5v0d10v5_WLCVX2)/w_n308_n397# at (sky130_fd_pr__pfet_g5v0d10v5_WLCVX2)/MX0
+WARNING: missing bias (1) /XGSense_Contacts_pfet_1p8Vd_1p8Vg_0(GSense_Contacts_pfet_1p8Vd_1p8Vg)/XGSense_pFET_1p8VD_1p8Vg_1nf_0(GSense_pFET_1p8VD_1p8Vg_1nf)/XXM1(sky130_fd_pr__pfet_01v8_8JS3FC)/w_n211_n319# at (sky130_fd_pr__pfet_01v8_8JS3FC)/MX0
+Saving simulation voltages...
+CVC: Propagating Simulation voltages 3...
+Usage SIM2: Time: 0  Memory: 5224  I/O: 112  Swap: 0
+Power nets 418
+Added 0 latch voltages
+CVC: Calculating min/max voltages...
+Processing trivial nets found 9 trivial nets
+CVC: Ignoring invalid calculations...
+WARNING: Invalid Min/Max on top level port: gpio_analog[7] Min/Max: 0/-600
+CVC:   Removed 4 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 2 devices
+Usage MIN/MAX2: Time: 0  Memory: 5224  I/O: 112  Swap: 0
+Power nets 424
+! Checking overvoltage errors
+
+! Checking nmos possible leak errors: 
+
+! Checking pmos possible leak errors: 
+
+! Checking mos floating input errors:
+
+! Checking expected values:
+
+CVC: Error Counts
+CVC: Fuse Problems:         0
+CVC: Min Voltage Conflicts: 0
+CVC: Max Voltage Conflicts: 0
+CVC: Leaks:                 0
+CVC: LDD drain->source:     0
+CVC: HI-Z Inputs:           633
+CVC: Forward Bias Diodes:   0
+CVC: NMOS Source vs Bulk:   0
+CVC: NMOS Gate vs Source:   1
+CVC: NMOS Possible Leaks:   0
+CVC: PMOS Source vs Bulk:   0
+CVC: PMOS Gate vs Source:   1
+CVC: PMOS Possible Leaks:   0
+CVC: Overvoltage-VBG:       0
+CVC: Overvoltage-VBS:       0
+CVC: Overvoltage-VDS:       0
+CVC: Overvoltage-VGS:       0
+CVC: Model errors:          0
+CVC: Unexpected voltage :   0
+CVC: Total:                 635
+Usage Total: Time: 0  Memory: 5852  I/O: 152  Swap: 0
+Virtual net update/access 897/412268
+CVC: Log output to /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/cvc.log
+CVC: End: Mon Jun  3 18:20:48 2024
+
+
+Soft check result:
+Final result: 
+Netlists do not match.
+Soft check problem: check the following files
+/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs/ext.log
+/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs/nowell.ext.log
+/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs/soft.log
+/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/outputs/reports/soft.report
+
+LVS result:
+Final result: 
+Netlists do not match.
+LVS Done.
+LVS problem: check the following files
+/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs/ext.log
+/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs/lvs.log
+/home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/outputs/reports/lvs.report
+
+CVC result:
+CVC: Total:                 635
+
+Runtime: 2:51:53 (hh:mm:ss)
+
+WARNING: possible errors SOFT 3 LVS 4 CVC 4

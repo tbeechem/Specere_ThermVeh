@@ -1,0 +1,227 @@
+ 
+Running extract...
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/edw3/Specere_ThermVeh/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+WORK_ROOT   : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp
+LOG_ROOT    : /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs
+SIGNOFF_ROOT: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/outputs/reports
+LOG FILE: /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/logs/ext.log
+Tech files do not match:
+/home/edw3/pdk/sky130A/libs.tech/magic/sky130A.tech: version 1.0.470-0-g6d4d117
+/home/edw3/mpw_precheck/checks/be_checks//tech/sky130A/sky130A.tech: version 1.0.470-0-g6d4d117
+Results may be incorrect. Contact efabless to update the soft connection rules.
+Extracting to /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext
+ 
+CIFIN_STYLE: 
+EXTRACT_STYLE: 
+
+Magic 8.3 revision 452 - Compiled on Thu May 30 14:56:34 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/home/edw3/mpw_precheck/checks/be_checks//scripts/gds.digital.spice.tcl" from command line.
+Extracting with top ports unique (digital)
+CIF input style is now "sky130()"
+Flattening 
+Extracting /home/edw3/Specere_ThermVeh/gds/user_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "sky130_fd_pr__nfet_03v3_nvt_EJ4KLV".
+Reading "GSense_nFET_3VD_3Vg_1nf".
+Reading "GSense_Contacts_nFET_3V_1nf".
+Reading "sky130_fd_pr__pfet_01v8_8JS3FC".
+Reading "GSense_pFET_1p8VD_1p8Vg_1nf".
+Reading "GSense_Contacts_pfet_1p8Vd_1p8Vg".
+Reading "sky130_fd_pr__nfet_01v8_J36GRF".
+Reading "GSense_nFET_1f1WL150n_V1".
+Reading "GSense_nFET_1W015L_1F_Contacts".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_WLCVX2".
+Reading "GSense_pFET_10VD_5Vg_1nf".
+Reading "GSense_pFET_10Vd_5p5Vg_1nf".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_R72FWE".
+Reading "GSense_nFET_10VD_5Vg_1nf".
+Reading "GSense_Contacts_nFT_g5_10Vd_1nf".
+Reading "sky130_fd_pr__nfet_03v3_nvt_VB5P9F".
+Reading "GSense_nFET_3VD_3Vg_5nf_V2".
+Reading "GSense_nFET_6Contacts_V2".
+Saving contents of cell GSense_nFET_6Contacts_V2
+Reading "GSense_nFET_3p3V_5nF_Contacts_V2".
+Reading "sky130_fd_pr__nfet_03v3_nvt_J2JJF2".
+Reading "GSense_nFET_3VD_3Vg_10nf_V2".
+Reading "nFET_3VD_3VG_10nF_Contacts".
+Reading "sky130_fd_pr__nfet_03v3_nvt_XW2EXC".
+Reading "GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH".
+Reading "nFET_3p3Vd_3VG_51NF_LTherm_Contacts".
+Reading "GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline".
+Reading "nFET_3VD_3VG_50nF_Therm_FET12".
+Reading "nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_3YBPVB".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_TGFUGS".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_YUHPBG".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_YEUEBV".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_PKVMTM".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_YUHPXE".
+Reading "sky130_fd_sc_hvl__schmittbuf_1".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Reading "sky130_fd_sc_hvl__buf_8".
+Reading "sky130_fd_sc_hvl__inv_8".
+Reading "sky130_fd_sc_hvl__fill_4".
+Reading "sky130_fd_pr__cap_mim_m3_1_WRT4AW".
+Reading "sky130_fd_pr__cap_mim_m3_2_W5U4AW".
+Reading "sky130_fd_pr__res_xhigh_po_0p69_S5N9F3".
+Reading "example_por".
+Reading "user_analog_proj_example".
+Reading "user_project_wrapper".
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice()"
+Processing sky130_fd_pr__res_xhigh_po_0p69_S5N9F3
+Processing sky130_fd_pr__cap_mim_m3_2_W5U4AW
+Processing sky130_fd_pr__cap_mim_m3_1_WRT4AW
+Processing sky130_fd_sc_hvl__inv_8
+Processing sky130_fd_sc_hvl__buf_8
+Processing sky130_fd_sc_hvl__schmittbuf_1
+Processing sky130_fd_pr__pfet_g5v0d10v5_3YBPVB
+Processing sky130_fd_pr__pfet_g5v0d10v5_YUHPXE
+Processing sky130_fd_pr__nfet_g5v0d10v5_PKVMTM
+Processing sky130_fd_pr__pfet_g5v0d10v5_YEUEBV
+Processing sky130_fd_pr__pfet_g5v0d10v5_YUHPBG
+Processing sky130_fd_pr__nfet_g5v0d10v5_TGFUGS
+Processing sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC
+Processing sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ
+Processing example_por
+Processing user_analog_proj_example
+Processing sky130_fd_pr__pfet_01v8_8JS3FC
+Processing GSense_pFET_1p8VD_1p8Vg_1nf
+Processing GSense_Contacts_pfet_1p8Vd_1p8Vg
+Processing sky130_fd_pr__nfet_01v8_J36GRF
+Processing GSense_nFET_1f1WL150n_V1
+Processing GSense_nFET_1W015L_1F_Contacts
+Processing sky130_fd_pr__nfet_03v3_nvt_EJ4KLV
+Processing GSense_nFET_3VD_3Vg_1nf
+Processing GSense_Contacts_nFET_3V_1nf
+Processing sky130_fd_pr__pfet_g5v0d10v5_WLCVX2
+Processing GSense_pFET_10VD_5Vg_1nf
+Processing GSense_pFET_10Vd_5p5Vg_1nf
+Processing sky130_fd_pr__nfet_g5v0d10v5_R72FWE
+Processing GSense_nFET_10VD_5Vg_1nf
+Processing GSense_Contacts_nFT_g5_10Vd_1nf
+Processing sky130_fd_pr__nfet_03v3_nvt_J2JJF2
+Processing GSense_nFET_3VD_3Vg_10nf_V2
+Processing nFET_3VD_3VG_10nF_Contacts
+Processing sky130_fd_pr__nfet_03v3_nvt_VB5P9F
+Processing GSense_nFET_3VD_3Vg_5nf_V2
+Processing GSense_nFET_3p3V_5nF_Contacts_V2
+Processing sky130_fd_pr__nfet_03v3_nvt_XW2EXC
+Processing GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH
+Processing nFET_3p3Vd_3VG_51NF_LTherm_Contacts
+Processing GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline
+Processing nFET_3VD_3VG_50nF_Therm_FET12
+Processing nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts
+Processing user_project_wrapper
+Extracting sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 into sky130_fd_pr__res_xhigh_po_0p69_S5N9F3.ext:
+Extracting sky130_fd_pr__cap_mim_m3_2_W5U4AW into sky130_fd_pr__cap_mim_m3_2_W5U4AW.ext:
+Extracting sky130_fd_pr__cap_mim_m3_1_WRT4AW into sky130_fd_pr__cap_mim_m3_1_WRT4AW.ext:
+Extracting sky130_fd_sc_hvl__fill_4 into sky130_fd_sc_hvl__fill_4.ext:
+Extracting sky130_fd_sc_hvl__inv_8 into sky130_fd_sc_hvl__inv_8.ext:
+Extracting sky130_fd_sc_hvl__buf_8 into sky130_fd_sc_hvl__buf_8.ext:
+Extracting sky130_fd_sc_hvl__schmittbuf_1 into sky130_fd_sc_hvl__schmittbuf_1.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_3YBPVB into sky130_fd_pr__pfet_g5v0d10v5_3YBPVB.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_YUHPXE into sky130_fd_pr__pfet_g5v0d10v5_YUHPXE.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_PKVMTM into sky130_fd_pr__nfet_g5v0d10v5_PKVMTM.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_YEUEBV into sky130_fd_pr__pfet_g5v0d10v5_YEUEBV.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_YUHPBG into sky130_fd_pr__pfet_g5v0d10v5_YUHPBG.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_TGFUGS into sky130_fd_pr__nfet_g5v0d10v5_TGFUGS.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC into sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ into sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ.ext:
+Extracting example_por into example_por.ext:
+Extracting user_analog_proj_example into user_analog_proj_example.ext:
+Extracting sky130_fd_pr__pfet_01v8_8JS3FC into sky130_fd_pr__pfet_01v8_8JS3FC.ext:
+Extracting GSense_pFET_1p8VD_1p8Vg_1nf into GSense_pFET_1p8VD_1p8Vg_1nf.ext:
+Extracting GSense_Contacts_pfet_1p8Vd_1p8Vg into GSense_Contacts_pfet_1p8Vd_1p8Vg.ext:
+Extracting sky130_fd_pr__nfet_01v8_J36GRF into sky130_fd_pr__nfet_01v8_J36GRF.ext:
+Extracting GSense_nFET_1f1WL150n_V1 into GSense_nFET_1f1WL150n_V1.ext:
+Extracting GSense_nFET_1W015L_1F_Contacts into GSense_nFET_1W015L_1F_Contacts.ext:
+Extracting sky130_fd_pr__nfet_03v3_nvt_EJ4KLV into sky130_fd_pr__nfet_03v3_nvt_EJ4KLV.ext:
+Extracting GSense_nFET_3VD_3Vg_1nf into GSense_nFET_3VD_3Vg_1nf.ext:
+Extracting GSense_Contacts_nFET_3V_1nf into GSense_Contacts_nFET_3V_1nf.ext:
+Extracting sky130_fd_pr__pfet_g5v0d10v5_WLCVX2 into sky130_fd_pr__pfet_g5v0d10v5_WLCVX2.ext:
+Extracting GSense_pFET_10VD_5Vg_1nf into GSense_pFET_10VD_5Vg_1nf.ext:
+Extracting GSense_pFET_10Vd_5p5Vg_1nf into GSense_pFET_10Vd_5p5Vg_1nf.ext:
+Extracting sky130_fd_pr__nfet_g5v0d10v5_R72FWE into sky130_fd_pr__nfet_g5v0d10v5_R72FWE.ext:
+Extracting GSense_nFET_10VD_5Vg_1nf into GSense_nFET_10VD_5Vg_1nf.ext:
+Extracting GSense_Contacts_nFT_g5_10Vd_1nf into GSense_Contacts_nFT_g5_10Vd_1nf.ext:
+Extracting sky130_fd_pr__nfet_03v3_nvt_J2JJF2 into sky130_fd_pr__nfet_03v3_nvt_J2JJF2.ext:
+Extracting GSense_nFET_3VD_3Vg_10nf_V2 into GSense_nFET_3VD_3Vg_10nf_V2.ext:
+Extracting nFET_3VD_3VG_10nF_Contacts into nFET_3VD_3VG_10nF_Contacts.ext:
+Extracting sky130_fd_pr__nfet_03v3_nvt_VB5P9F into sky130_fd_pr__nfet_03v3_nvt_VB5P9F.ext:
+Extracting GSense_nFET_3VD_3Vg_5nf_V2 into GSense_nFET_3VD_3Vg_5nf_V2.ext:
+Extracting GSense_nFET_3p3V_5nF_Contacts_V2 into GSense_nFET_3p3V_5nF_Contacts_V2.ext:
+Extracting sky130_fd_pr__nfet_03v3_nvt_XW2EXC into sky130_fd_pr__nfet_03v3_nvt_XW2EXC.ext:
+Extracting GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH into GSense_nFET_3VD_3Vg_51nf_V2AllGates_VH.ext:
+Extracting nFET_3p3Vd_3VG_51NF_LTherm_Contacts into nFET_3p3Vd_3VG_51NF_LTherm_Contacts.ext:
+Extracting GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline into GSense_nFET_3VD_3Vg_51nf_V2AllGates_Therm_Midline.ext:
+Extracting nFET_3VD_3VG_50nF_Therm_FET12 into nFET_3VD_3VG_50nF_Therm_FET12.ext:
+Extracting nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts into nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts.ext:
+Extracting user_project_wrapper into user_project_wrapper.ext:
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 18
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+exttospice finished.
+Using technology "sky130A", version 1.0.470-0-g6d4d117
+Creating layout hierarchy in /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/ext/user_project_wrapper.hier...

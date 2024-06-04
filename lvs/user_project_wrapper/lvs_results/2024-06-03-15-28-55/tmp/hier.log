@@ -1,0 +1,9 @@
+BEGIN: Mon 03 Jun 2024 03:28:55 PM UTC
+Creating /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/verilog.cells from the following files...
+	/home/edw3/Specere_ThermVeh/verilog/gl/user_proj_example.v
+	/home/edw3/Specere_ThermVeh/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /home/edw3/Specere_ThermVeh/gds/user_project_wrapper.gds
+	to /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /home/edw3/Specere_ThermVeh/lvs/user_project_wrapper/lvs_results/2024-06-03-15-28-55/tmp/hier.csv
+END: Mon 03 Jun 2024 03:28:57 PM UTC
+Runtime: 0:00:02 (hh:mm:ss)

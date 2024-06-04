@@ -1,0 +1,107 @@
+DEBUG: found parallel instance at /XGSense_pFET_10Vd_5p5Vg_1nf_1
+DEBUG: found parallel instance in parallel instance at /XGSense_pFET_10Vd_5p5Vg_1nf_1/XGSense_pFET_10VD_5Vg_1nf_0
+DEBUG: found parallel instance in parallel instance at /XGSense_pFET_10Vd_5p5Vg_1nf_1/XGSense_pFET_10VD_5Vg_1nf_0/XXM1
+DEBUG: found parallel instance at /XGSense_pFET_10Vd_5p5Vg_1nf_2
+DEBUG: found parallel instance in parallel instance at /XGSense_pFET_10Vd_5p5Vg_1nf_2/XGSense_pFET_10VD_5Vg_1nf_0
+DEBUG: found parallel instance in parallel instance at /XGSense_pFET_10Vd_5p5Vg_1nf_2/XGSense_pFET_10VD_5Vg_1nf_0/XXM1
+DEBUG: found parallel instance at /XGSense_Contacts_pfet_1p8Vd_1p8Vg_1
+DEBUG: found parallel instance in parallel instance at /XGSense_Contacts_pfet_1p8Vd_1p8Vg_1/XGSense_pFET_1p8VD_1p8Vg_1nf_0
+DEBUG: found parallel instance in parallel instance at /XGSense_Contacts_pfet_1p8Vd_1p8Vg_1/XGSense_pFET_1p8VD_1p8Vg_1nf_0/XXM1
+DEBUG: found parallel instance at /XGSense_Contacts_pfet_1p8Vd_1p8Vg_2
+DEBUG: found parallel instance in parallel instance at /XGSense_Contacts_pfet_1p8Vd_1p8Vg_2/XGSense_pFET_1p8VD_1p8Vg_1nf_0
+DEBUG: found parallel instance in parallel instance at /XGSense_Contacts_pfet_1p8Vd_1p8Vg_2/XGSense_pFET_1p8VD_1p8Vg_1nf_0/XXM1
+DEBUG: netParent size 898; deviceParent size 801
+DEBUG: parallel collisions 0 max length 0
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_619_165# 126 MinV:0 MaxV:3300 MinR:72812 MaxR:1820300 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_1006_5813# 253 MinV:0 MaxV:3300 MinR:145624 MaxR:1747488 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_1391_165# 380 MinV:0 MaxV:3300 MinR:218436 MaxR:1674676 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_1778_5813# 507 MinV:0 MaxV:3300 MinR:291248 MaxR:1601864 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_2163_165# 634 MinV:0 MaxV:3300 MinR:364060 MaxR:1529052 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_2550_5813# 761 MinV:0 MaxV:3300 MinR:436872 MaxR:1456240 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_2935_165# 888 MinV:0 MaxV:3300 MinR:509684 MaxR:1383428 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_3322_5813# 1015 MinV:0 MaxV:3300 MinR:582496 MaxR:1310616 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_3707_165# 1142 MinV:0 MaxV:3300 MinR:655308 MaxR:1237804 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_4094_5813# 1269 MinV:0 MaxV:3300 MinR:728120 MaxR:1164992 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_4479_165# 1396 MinV:0 MaxV:3300 MinR:800932 MaxR:1092180 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_4866_5813# 1523 MinV:0 MaxV:3300 MinR:873744 MaxR:1019368 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_5251_165# 1650 MinV:0 MaxV:3300 MinR:946556 MaxR:946556 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_5638_5813# 1776 MinV:0 MaxV:3300 MinR:1019368 MaxR:873744 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_6023_165# 1903 MinV:0 MaxV:3300 MinR:1092180 MaxR:800932 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_6410_5813# 2030 MinV:0 MaxV:3300 MinR:1164992 MaxR:728120 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_6795_165# 2157 MinV:0 MaxV:3300 MinR:1237804 MaxR:655308 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_7182_5813# 2284 MinV:0 MaxV:3300 MinR:1310616 MaxR:582496 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_7567_165# 2411 MinV:0 MaxV:3300 MinR:1383428 MaxR:509684 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_7954_5813# 2538 MinV:0 MaxV:3300 MinR:1456240 MaxR:436872 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_8339_165# 2665 MinV:0 MaxV:3300 MinR:1529052 MaxR:364060 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_8726_5813# 2792 MinV:0 MaxV:3300 MinR:1601864 MaxR:291248 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_9111_165# 2919 MinV:0 MaxV:3300 MinR:1674676 MaxR:218436 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_9498_5813# 3046 MinV:0 MaxV:3300 MinR:1747488 MaxR:145624 implicit
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_9883_165# 3173 MinV:0 MaxV:3300 MinR:1820300 MaxR:72812 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_5251_165# 1650 MinV:0 MaxV:3300 MinR:946556 MaxR:946556 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_1778_5813# 507 MinV:0 MaxV:3300 MinR:291248 MaxR:1601864 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_2163_165# 634 MinV:0 MaxV:3300 MinR:364060 MaxR:1529052 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_1006_5813# 253 MinV:0 MaxV:3300 MinR:145624 MaxR:1747488 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_1391_165# 380 MinV:0 MaxV:3300 MinR:218436 MaxR:1674676 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_619_165# 126 MinV:0 MaxV:3300 MinR:72812 MaxR:1820300 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_6410_5813# 2030 MinV:0 MaxV:3300 MinR:1164992 MaxR:728120 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_6795_165# 2157 MinV:0 MaxV:3300 MinR:1237804 MaxR:655308 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_9883_165# 3173 MinV:0 MaxV:3300 MinR:1820300 MaxR:72812 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_5638_5813# 1776 MinV:0 MaxV:3300 MinR:1019368 MaxR:873744 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_6023_165# 1903 MinV:0 MaxV:3300 MinR:1092180 MaxR:800932 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_4479_165# 1396 MinV:0 MaxV:3300 MinR:800932 MaxR:1092180 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_3322_5813# 1015 MinV:0 MaxV:3300 MinR:582496 MaxR:1310616 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_2935_165# 888 MinV:0 MaxV:3300 MinR:509684 MaxR:1383428 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_4094_5813# 1269 MinV:0 MaxV:3300 MinR:728120 MaxR:1164992 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_7182_5813# 2284 MinV:0 MaxV:3300 MinR:1310616 MaxR:582496 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_7567_165# 2411 MinV:0 MaxV:3300 MinR:1383428 MaxR:509684 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_7954_5813# 2538 MinV:0 MaxV:3300 MinR:1456240 MaxR:436872 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_3707_165# 1142 MinV:0 MaxV:3300 MinR:655308 MaxR:1237804 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_2550_5813# 761 MinV:0 MaxV:3300 MinR:436872 MaxR:1456240 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_8726_5813# 2792 MinV:0 MaxV:3300 MinR:1601864 MaxR:291248 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_8339_165# 2665 MinV:0 MaxV:3300 MinR:1529052 MaxR:364060 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_9111_165# 2919 MinV:0 MaxV:3300 MinR:1674676 MaxR:218436 implicit
+
+INFO: Resistor voltage calculation /Xuser_analog_proj_example_0(user_analog_proj_example)/Xexample_por_1(example_por)/li_9498_5813# 3046 MinV:0 MaxV:3300 MinR:1747488 MaxR:145624 implicit
+
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_YEUEBV_0/MX4 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_YEUEBV_0/MX3 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_YEUEBV_0/MX2 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_YEUEBV_0/MX1 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX7 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX5 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX3 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX0 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_YEUEBV_0/MX6 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_YEUEBV_0/MX5 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_YEUEBV_0/MX0 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX6 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX4 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX2 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ_0/MX1 voltage 0( PMOS Vth drop 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_sc_hvl__schmittbuf_1_0/MX1 voltage 0( NMOS gate limited 0.2-0.2) from 200
+DEBUG: Skipped down propagation at /Xuser_analog_proj_example_0/Xexample_por_0/Xsky130_fd_sc_hvl__schmittbuf_1_0/MX9 voltage 0( NMOS gate limited 0.2-0.2) from 200
+ Limited sim to min /Xuser_analog_proj_example_0/Xexample_por_1/m1_185_6573#
+ Limited sim to min /Xuser_analog_proj_example_0/Xexample_por_1/m1_185_6573#
