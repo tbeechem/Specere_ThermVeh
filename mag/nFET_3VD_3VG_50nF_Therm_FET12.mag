@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717418514
+timestamp 1717546648
 << metal1 >>
 rect 5996 12654 7448 13018
 rect 5996 11830 6392 12654
@@ -285,6 +285,8 @@ rect 15430 -8734 30630 6666
 rect -27680 -27400 -12480 -12020
 rect 15430 -27564 30630 -12164
 rect -7200 -43800 8000 -28200
+<< fillblock >>
+rect -5998 -1840 8502 -840
 use GSense_nFET_6Contacts_V2  GSense_nFET_3VD_3Vg_5nf_V2_0
 timestamp 1717352107
 transform 1 0 315 0 1 -138

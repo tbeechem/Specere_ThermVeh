@@ -1,154 +1,152 @@
 magic
 tech sky130A
-timestamp 1717455510
-<< checkpaint >>
-rect 15000 15000 269660 341882
-use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_0 ~/Specere_ThermVeh/mag
-timestamp 1717297085
+timestamp 1717546687
+use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_0
+timestamp 1717542833
 transform 1 0 209100 0 1 28982
 box -14100 -13982 15560 12900
 use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_1
-timestamp 1717297085
+timestamp 1717542833
 transform 1 0 74100 0 1 28982
 box -14100 -13982 15560 12900
 use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_2
-timestamp 1717297085
+timestamp 1717542833
 transform 1 0 29100 0 1 291482
 box -14100 -13982 15560 12900
 use GSense_Contacts_nFET_3V_1nf  GSense_Contacts_nFET_3V_1nf_3
-timestamp 1717297085
+timestamp 1717542833
 transform 1 0 29100 0 1 328982
 box -14100 -13982 15560 12900
-use GSense_Contacts_nFT_g5_10Vd_1nf  GSense_Contacts_nFT_g5_10Vd_1nf_0 ~/Specere_ThermVeh/mag
-timestamp 1717298111
+use GSense_Contacts_nFT_g5_10Vd_1nf  GSense_Contacts_nFT_g5_10Vd_1nf_0
+timestamp 1717546316
 transform 1 0 119100 0 1 28982
 box -14100 -13982 15560 12900
 use GSense_Contacts_nFT_g5_10Vd_1nf  GSense_Contacts_nFT_g5_10Vd_1nf_1
-timestamp 1717298111
+timestamp 1717546316
 transform 1 0 254100 0 1 28982
 box -14100 -13982 15560 12900
 use GSense_Contacts_nFT_g5_10Vd_1nf  GSense_Contacts_nFT_g5_10Vd_1nf_2
-timestamp 1717298111
+timestamp 1717546316
 transform 1 0 74100 0 1 291482
 box -14100 -13982 15560 12900
-use GSense_Contacts_pfet_1p8Vd_1p8Vg  GSense_Contacts_pfet_1p8Vd_1p8Vg_0 ~/Specere_ThermVeh/mag
-timestamp 1717299190
+use GSense_Contacts_pfet_1p8Vd_1p8Vg  GSense_Contacts_pfet_1p8Vd_1p8Vg_0
+timestamp 1717546367
 transform 1 0 29100 0 1 73982
 box -14100 -13982 15560 12900
 use GSense_Contacts_pfet_1p8Vd_1p8Vg  GSense_Contacts_pfet_1p8Vd_1p8Vg_1
-timestamp 1717299190
+timestamp 1717546367
 transform 1 0 164100 0 1 73982
 box -14100 -13982 15560 12900
 use GSense_Contacts_pfet_1p8Vd_1p8Vg  GSense_Contacts_pfet_1p8Vd_1p8Vg_2
-timestamp 1717299190
+timestamp 1717546367
 transform 1 0 119100 0 1 328982
 box -14100 -13982 15560 12900
-use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_0 ~/Specere_ThermVeh/mag
-timestamp 1717279150
+use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_0
+timestamp 1717546316
 transform 1 0 119100 0 1 73982
 box -14100 -13982 15560 12900
 use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_1
-timestamp 1717279150
+timestamp 1717546316
 transform 1 0 164100 0 1 28982
 box -14100 -13982 15560 12900
 use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_2
-timestamp 1717279150
+timestamp 1717546316
 transform 1 0 29100 0 1 28982
 box -14100 -13982 15560 12900
 use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_3
-timestamp 1717279150
+timestamp 1717546316
 transform 1 0 254100 0 1 73982
 box -14100 -13982 15560 12900
 use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_4
-timestamp 1717279150
+timestamp 1717546316
 transform 1 0 119100 0 1 291482
 box -14100 -13982 15560 12900
 use GSense_nFET_1W015L_1F_Contacts  GSense_nFET_1W015L_1F_Contacts_5
-timestamp 1717279150
+timestamp 1717546316
 transform 1 0 74100 0 1 328982
 box -14100 -13982 15560 12900
-use GSense_nFET_3p3V_5nF_Contacts_V2  GSense_nFET_3p3V_5nF_Contacts_V2_0 ~/Specere_ThermVeh/mag
-timestamp 1717354540
+use GSense_nFET_3p3V_5nF_Contacts_V2  GSense_nFET_3p3V_5nF_Contacts_V2_0
+timestamp 1717546540
 transform 1 0 29100 0 1 127032
 box -14100 -22032 15560 21012
 use GSense_nFET_3p3V_5nF_Contacts_V2  GSense_nFET_3p3V_5nF_Contacts_V2_1
-timestamp 1717354540
+timestamp 1717546540
 transform 1 0 254100 0 1 187032
 box -14100 -22032 15560 21012
 use GSense_nFET_3p3V_5nF_Contacts_V2  GSense_nFET_3p3V_5nF_Contacts_V2_2
-timestamp 1717354540
+timestamp 1717546540
 transform 1 0 209100 0 1 247032
 box -14100 -22032 15560 21012
-use GSense_pFET_10Vd_5p5Vg_1nf  GSense_pFET_10Vd_5p5Vg_1nf_0 ~/Specere_ThermVeh/mag
-timestamp 1717300160
+use GSense_pFET_10Vd_5p5Vg_1nf  GSense_pFET_10Vd_5p5Vg_1nf_0
+timestamp 1717546316
 transform 1 0 74100 0 1 73982
 box -14100 -13982 15560 12900
 use GSense_pFET_10Vd_5p5Vg_1nf  GSense_pFET_10Vd_5p5Vg_1nf_1
-timestamp 1717300160
+timestamp 1717546316
 transform 1 0 209100 0 1 73982
 box -14100 -13982 15560 12900
 use GSense_pFET_10Vd_5p5Vg_1nf  GSense_pFET_10Vd_5p5Vg_1nf_2
-timestamp 1717300160
+timestamp 1717546316
 transform 1 0 164100 0 1 291482
 box -14100 -13982 15560 12900
-use nFET_3p3Vd_3VG_51NF_LTherm_Contacts  nFET_3p3Vd_3VG_51NF_LTherm_Contacts_0 ~/Specere_ThermVeh/mag
-timestamp 1717386517
+use nFET_3p3Vd_3VG_51NF_LTherm_Contacts  nFET_3p3Vd_3VG_51NF_LTherm_Contacts_0
+timestamp 1717546587
 transform 1 0 119289 0 1 126836
 box -14100 -22032 15560 21012
 use nFET_3p3Vd_3VG_51NF_LTherm_Contacts  nFET_3p3Vd_3VG_51NF_LTherm_Contacts_1
-timestamp 1717386517
+timestamp 1717546587
 transform 1 0 164100 0 1 247032
 box -14100 -22032 15560 21012
 use nFET_3p3Vd_3VG_51NF_LTherm_Contacts  nFET_3p3Vd_3VG_51NF_LTherm_Contacts_2
-timestamp 1717386517
+timestamp 1717546587
 transform 1 0 164100 0 1 187032
 box -14100 -22032 15560 21012
-use nFET_3VD_3VG_10nF_Contacts  nFET_3VD_3VG_10nF_Contacts_0 ~/Specere_ThermVeh/mag
-timestamp 1717369455
+use nFET_3VD_3VG_10nF_Contacts  nFET_3VD_3VG_10nF_Contacts_0
+timestamp 1717546108
 transform 1 0 73662 0 1 126930
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_10nF_Contacts  nFET_3VD_3VG_10nF_Contacts_1
-timestamp 1717369455
+timestamp 1717546108
 transform 1 0 254100 0 1 247032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_10nF_Contacts  nFET_3VD_3VG_10nF_Contacts_2
-timestamp 1717369455
+timestamp 1717546108
 transform 1 0 209100 0 1 187032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_10nF_Contacts  nFET_3VD_3VG_10nF_Contacts_3
-timestamp 1717369455
+timestamp 1717546108
 transform 1 0 29100 0 1 247032
 box -14100 -22032 15560 21012
-use nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts  nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts_0 ~/Specere_ThermVeh/mag
-timestamp 1717386517
+use nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts  nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts_0
+timestamp 1717546687
 transform 1 0 209100 0 1 127032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts  nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts_1
-timestamp 1717386517
+timestamp 1717546687
 transform 1 0 254100 0 1 127032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts  nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts_2
-timestamp 1717386517
+timestamp 1717546687
 transform 1 0 29100 0 1 187032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts  nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts_3
-timestamp 1717386517
+timestamp 1717546687
 transform 1 0 74100 0 1 247032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts  nFET_3VD_3VG_50NF_MiDLine_Therm_Contacts_5
-timestamp 1717386517
+timestamp 1717546687
 transform 1 0 74100 0 1 187032
 box -14100 -22032 15560 21012
-use nFET_3VD_3VG_50nF_Therm_FET12  nFET_3VD_3VG_50nF_Therm_FET12_0 ~/Specere_ThermVeh/mag
-timestamp 1717418514
+use nFET_3VD_3VG_50nF_Therm_FET12  nFET_3VD_3VG_50nF_Therm_FET12_0
+timestamp 1717546648
 transform 1 0 164100 0 1 127032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_50nF_Therm_FET12  nFET_3VD_3VG_50nF_Therm_FET12_1
-timestamp 1717418514
+timestamp 1717546648
 transform 1 0 119100 0 1 247032
 box -14100 -22032 15560 21012
 use nFET_3VD_3VG_50nF_Therm_FET12  nFET_3VD_3VG_50nF_Therm_FET12_3
-timestamp 1717418514
+timestamp 1717546648
 transform 1 0 119100 0 1 187032
 box -14100 -22032 15560 21012
 << end >>
